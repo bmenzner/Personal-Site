@@ -1,0 +1,75 @@
+@font-face {
+  font-family: Baloo;
+  src: local('Baloo'), url("Baloo-Regular.ttf");
+}
+*{
+  margin: 0;
+}
+
+
+.header{
+  height: 200px;
+  background-color: black;
+  background-size: 100%;
+  background-position: center;
+  text-align: center;
+  font-family: Baloo;
+  color: white;
+  white-space: nowrap;
+}
+
+li{
+  display: inline-block;
+  padding: 20px;
+  font-size: 50px;
+
+}
+
+.features{
+  background: white;
+  height: 500px;
+  padding: 20px;
+  display: block;
+  flex-direction: row;
+  font-family: Baloo;
+}
+
+.features figure{
+  margin: auto;
+  width: 200px;
+  text-align: center;
+}
+
+.features figure img{
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 200px;
+  box-shadow: gray 0 0 10px;
+}
+
+.features figure:hover{
+  transorm: scale(1.5);
+}
+
+.instructions_box{
+  height: 600px;
+  text-align: center;
+  background:linear-gradient(105deg, #fdcd3b 0%, #fdcd3b 33%, #F0FFFF 33%,#F0FFFF 66%, #6495ED 66%, #6495ED 100%);
+}
+
+.sub_instruct{
+  display:inline-block;
+  width: 33%;
+  font-family: Baloo;
+  margin-top: 10%;
+
+}
+
+.footer{
+  height: 20px;
+  background: black;
+  color: gray;
+  font-size: 12px;
+  padding: 20px 20px;
+  text-align: center;
+}

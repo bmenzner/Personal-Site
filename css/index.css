@@ -1,0 +1,38 @@
+@font-face {
+    font-family: CaviarDreams;
+    src: local('CaviarDreams'), url("CaviarDreams.ttf");
+  }
+  
+  *{
+    font-family: "CaviarDreams";
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    /* background-color: whitesmoke; */
+    background-color: white;
+  }
+  
+
+  .middle-box{
+      margin-top: 200px;
+      text-align: center;
+      font-size: 8em;
+  }
+
+  .contact{
+      margin-top: 40px;
+      text-align: center;
+      font-size: 2em;
+  }
+
+  div.socials > div{
+    display: inline-block;
+    margin-top: 0.5em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+div.socials div a img.social-icon{
+    height:60px;
+}
